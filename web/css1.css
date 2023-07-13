@@ -1,0 +1,18 @@
+/*grouping selector*/
+p,footer {
+      color:green;
+      background-color:aliceblue;
+      border: 2px solid red;
+}
+/* class selector */
+.blueele{
+    color: blue;
+    background-color: rgb(227, 195, 195);
+}
+/* id selector */
+
+#redele
+{
+    color: red;
+    background-color: purple;
+}

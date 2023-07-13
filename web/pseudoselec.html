@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selectors and designing</title>
+    <style>
+        .container
+        {
+            border:2px solid red;
+            background-color:rgb(243, 147, 163);
+            border-radius: 5px;
+            padding: 20px;
+        }
+        a
+        {
+              text-decoration:none;
+              color: black;
+        }
+        
+        /* a:visited
+        {
+              background-color:rgba(23, 5, 155, 0.74);
+        } */
+        .btn
+        {
+              background-color: aquamarine;
+              padding:6px;
+              border: 2px solid black;
+              cursor:pointer;
+              font-size: 13px;
+              border-radius: 5px;
+        }
+        .btn:hover{
+            color:red;
+            background-color:pink;
+            border:null;
+        }
+        a:hover
+        {
+            color:rgb(181, 24, 50);
+            background-color: rgb(5, 5, 9);
+            border: null;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+    <h3>This is my heading</h3>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias atque natus ipsum officia harum expedita mollitia totam veritatis blanditiis? Veniam obcaecati tempora rem ratione consequatur suscipit repudiandae atque esse perspiciatis!</p>
+       <a href="https://www.twitch.com/" class="btn">Read More</a>
+       <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>
